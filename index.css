@@ -1,0 +1,68 @@
+/* Base styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("RPS.jpg");
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+/* Headings */
+h1 {
+    font-size: 6rem;
+    text-shadow: 8px 8px 0px #000000;
+    color: white;
+    border: lightblue;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #f0f0f0;
+}
+
+/* CSS */
+button {
+  width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  margin: 10px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.container{
+    background-color: #00adef;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+    margin: 10px 0;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
