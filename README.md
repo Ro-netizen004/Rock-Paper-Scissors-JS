@@ -1,4 +1,6 @@
 # Rock Paper Scissors JS
+Link to site: https://rock-paper-scissors-game-with-java.netlify.app/
+
 A simple rock paper scissor game created with javascript, html and css
 
 Skills acquired:
